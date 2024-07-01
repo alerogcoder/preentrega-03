@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivial de Cine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trivial de Cine</h1>
+        <div id="userInput" class="input-section">
+            <label for="nombreUsuario">Nombre:</label>
+            <input type="text" id="nombreUsuario" placeholder="Introduce tu nombre">
+            <button id="startQuiz">Iniciar Trivial</button>
+        </div>
+        <div id="questions" class="hidden">
+            <p id="currentQuestion"></p>
+            <input type="text" id="userAnswer" placeholder="Tu respuesta">
+            <button id="submitAnswer">Responder</button>
+        </div>
+        <div id="results" class="hidden">
+            <p id="finalResults"></p>
+            <button id="restartQuiz">Reiniciar Trivial</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
